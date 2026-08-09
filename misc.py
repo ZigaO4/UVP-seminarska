@@ -17,7 +17,7 @@ def createObjectivesHTML():
     with open(f"objectives.html", "w", encoding='UTF-8') as f:
         f.write(objectives_content)
     
-    remove_q(f"objectives.html")
+    remove_quot(f"objectives.html")
     return None
 
 #createObjectivesHTML()
@@ -30,7 +30,7 @@ with open(f"objectives.html", "r", encoding='UTF-8') as file:
 objectives = re.findall(r'title="([^"]+)"', html_objectives)
 
 
-def remove_q(file):
+def remove_quot(file):
     """Iz HTML datoteke počisti &quot;"""
     with open(f"{file}", "r", encoding="UTF-8") as f:
         html_code = f.read()
@@ -52,15 +52,3 @@ entry= {
 template = {}
 for i in range (0, len(objectives)):
     template[objectives[i]]=entry.copy()
-
-
-
-
-
-
-
-
-
-
-'{junk}hyphens-auto text-neutral-500">([^<])'
-

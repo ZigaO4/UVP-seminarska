@@ -4,8 +4,8 @@ import time
 
 
 
-#Shrani HTML File spletne strani
 def profile(name):
+    """Shrani HTML profila uporabnika"""
     url = f"https://draftoutmc.com/leaderboard/{name}?metric=elo&filter=competitive"
     chrome_options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(options=chrome_options)   

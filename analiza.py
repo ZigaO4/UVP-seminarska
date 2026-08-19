@@ -24,7 +24,7 @@ def match_stats(name, match_id):
     #Selenium klikne na gumb
     draft_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Draft')]")
     draft_button.click()
-    time.sleep(2)
+    time.sleep(1)
 
     #HTML Od Drafta
     content = driver.page_source
@@ -65,7 +65,7 @@ def match_stats(name, match_id):
 
 
         #If appeared on draft
-        appeared_draft = re.findall(rf'100">{name}<span\s+.*?picks:.*?text-neutral-\d+"[^>]*>\s*([^<]+?)\s*<.*?text-neutral-\d+"[^>]*>\s*([^<]+?)\s*<', html_profile)
+        appeared_draft = re.findall(rf'100">Feinberg<span.*?picks:.*?text-neutral-\d*"[^>]*>([^<]*)<.*?text-neutral-\d*"[^>]*>([^<]*)<', html_profile)
         for match in appeared_draft:
             choice_insert_goals(match[0], data)
             choice_insert_goals(match[1], data)

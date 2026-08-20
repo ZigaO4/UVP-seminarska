@@ -1,0 +1,380 @@
+id,name,choice,drafted,appeared,completed,lost
+0,Break any Armor Piece,39,17,46,27,12
+1,Break any Tool,50,22,59,38,19
+2,Breed 4 Unique Animals,46,14,48,15,21
+3,Breed 6 Unique Animals,46,13,46,12,8
+4,Breed 8 Unique Animals,17,8,12,0,1
+5,Breed Armadillos,18,5,12,3,1
+6,Breed Camels,5,0,2,2,0
+7,Breed Chickens,34,16,42,23,19
+8,Breed Cows,31,25,50,29,21
+9,Breed Foxes,11,0,4,0,0
+10,Breed Frogs,7,1,4,1,1
+11,Breed Goats,6,4,6,2,0
+12,Breed Hoglins,46,16,30,16,4
+13,Breed Pigs,41,21,48,21,22
+14,Breed Rabbits,29,2,12,4,4
+15,Breed Sheep,23,16,40,20,19
+16,Breed Striders,34,11,23,11,8
+17,Brew a Lingering Potion,16,6,14,2,4
+18,Brew a Potion of Healing,19,8,12,2,1
+19,Brew a Potion of Invisibility,22,16,20,8,2
+20,Brew a Potion of Poison,19,10,14,5,0
+21,Brew a Potion of Swiftness,18,13,20,11,0
+22,Brew a Potion of Water Breathing,20,12,19,6,3
+23,Brew a Potion of Weakness,21,9,20,10,0
+24,Compost 3 Unique Foods,41,30,62,32,28
+25,Compost 5 Unique Foods,50,32,57,25,24
+26,Compost 7 Unique Foods,9,6,9,2,1
+27,Construct a Copper Golem,31,9,28,9,13
+28,Construct an Iron Golem,15,9,20,8,3
+29,Craft 20 Unique Items,40,22,46,36,10
+30,Craft 50 Unique Items,52,43,61,53,7
+31,Craft 100 Unique Items,8,8,11,8,0
+32,Deal 400 damage,39,24,47,22,21
+33,Decorate Shield with Banner,48,28,60,32,28
+34,Die by Drowning,33,6,19,5,14
+35,Die by falling in Void,32,13,18,3,0
+36,Die by falling off Vines,34,6,22,6,13
+37,Die by Freezing,7,0,2,0,2
+38,Die by Magic,3,0,2,0,2
+39,Die to [Intentional Game Design],25,16,40,26,7
+40,Die to Bee Sting,42,15,25,17,7
+41,Die to Berry Bush,6,1,6,1,4
+42,Die to Cactus,3,1,8,4,3
+43,Die to falling Anvil,23,13,18,5,4
+44,Die to Falling Stalactite,39,0,12,6,3
+45,Die to Firework Rocket,38,12,30,18,8
+46,Die to Iron Golem,31,11,32,12,19
+47,Die to Polar Bear,5,0,3,1,1
+48,Die to Pufferfish,13,0,4,2,0
+49,Die to TNT Minecart,26,7,14,7,2
+50,Die to Warden,4,1,2,1,0
+51,Drink Honey Bottle,32,9,22,10,4
+52,Drink Water Bottle,37,9,43,16,25
+53,Duplicate Allay,0,0,0,0,0
+54,Duplicate any Armor Trim,0,0,0,0,0
+55,Eat 5 Unique Food,51,34,66,45,20
+56,Eat 10 Unique Food,47,31,54,34,19
+57,Eat 15 Unique Food,42,30,53,30,14
+58,Eat 20 Unique Food,12,11,16,7,4
+59,Eat 25 Unique Food,18,14,19,4,1
+60,Eat a Glow Berry,43,8,34,9,7
+61,Eat a Poisonous Potato,40,21,46,19,12
+62,Eat a slice of Cake,49,15,23,12,4
+63,Eat Beetroot Soup,4,3,4,1,1
+64,Eat Cookie,30,16,42,20,13
+65,Eat every type of Soup,8,1,2,1,0
+66,Eat Pumpkin Pie,43,29,57,36,16
+67,Eat Rabbit Stew,48,25,52,24,19
+68,Eat Suspicious Stew,38,21,52,16,29
+69,Empty Hunger Bar,49,5,40,12,28
+70,Enrage Zombified Piglin,43,28,53,37,11
+71,Enter Nether,52,30,43,29,12
+72,Enter The End,50,38,45,16,0
+73,Explode End Crystal,52,28,44,13,0
+74,Feed Golden Dandelion to any Baby Mob,45,26,47,25,19
+75,Fill a Decorated Pot,53,21,51,25,26
+76,Fill an Armor Stand,40,16,38,27,9
+77,Fill Campfire with 4 Food Items,60,26,56,33,23
+78,Fill Chiseled Bookshelf,53,31,61,34,23
+79,Fill Composter and get Bone Meal,52,33,60,36,24
+80,Fill Inventory with unique items,45,40,54,48,6
+81,Find a Stronghold,44,24,31,14,0
+82,Fully charge a Respawn Anchor,45,30,44,19,5
+83,Get 3 Status Effects at once,41,30,57,33,19
+84,Get 4 Status Effects at once,30,23,47,26,17
+85,Get 6 Status Effects at once,26,17,33,14,5
+86,Get Absorption,37,24,53,29,16
+87,Get Bad Omen,8,1,3,1,1
+88,Get Glowing,48,29,54,35,8
+89,Get Jump Boost,39,22,56,26,24
+90,Get Mining Fatigue,1,1,3,1,2
+91,Get Nausea,14,5,9,5,3
+92,Get on Nether Roof,44,9,38,7,1
+93,Get Poison,49,28,69,43,25
+94,Get Weakness,49,19,48,21,10
+95,Have your Shield disabled,55,39,59,33,20
+96,Kill 7 Unique Hostile Mobs,47,29,60,35,18
+97,Kill 10 Unique Hostile Mobs,47,26,54,23,12
+98,Kill 13 Unique Hostile Mobs,12,8,11,2,1
+99,Kill 15 Unique Hostile Mobs,5,2,5,1,1
+100,Kill 20 Arthropods,43,7,28,6,7
+101,Kill 30 Undead Mobs,42,12,36,11,12
+102,Kill 100 mobs,47,14,36,19,4
+103,Kill all Raid Mobs,5,0,1,0,0
+104,Kill Bat,32,5,30,11,14
+105,Kill Blue Sheep,3,1,4,3,1
+106,Kill Cyan Sheep,1,1,2,0,1
+107,Kill Green Sheep,0,0,0,0,0
+108,Kill Light Blue Sheep,2,1,8,3,4
+109,Kill Lime Sheep,2,2,2,1,1
+110,Kill Magenta Sheep,5,4,4,2,2
+111,Kill Orange Sheep,6,2,4,3,1
+112,Kill Purple Sheep,3,2,7,3,4
+113,Kill Red Sheep,8,7,8,5,3
+114,Kill Yellow Sheep,3,3,8,3,5
+115,Kill Bogged,11,6,10,2,4
+116,Kill Breeze using Wind Charge,38,3,21,8,5
+117,Kill Elder Guardian,0,0,1,0,0
+118,Kill Guardian,0,0,0,0,0
+119,Kill Husk,0,0,0,0,0
+120,Kill Pillager using Crossbow,7,4,7,3,2
+121,Kill Silverfish,31,16,32,14,8
+122,Kill Snow Golem,12,7,14,6,6
+123,Kill Snow Golem in The Nether,13,5,11,3,1
+124,Kill Stray,8,3,3,1,1
+125,Kill Warden,5,3,5,3,0
+126,Kill Witch,22,9,20,9,5
+127,Kill Zoglin,45,19,33,11,7
+128,Kill Zombie Villager,11,2,8,3,2
+129,Leash 4 unique Mobs at once,31,12,31,15,11
+130,Leash 6 unique Mobs at once,39,27,40,16,4
+131,Leash 8 unique Mobs at once,29,17,35,6,2
+132,Leash an Iron Golem,48,23,43,16,14
+133,Light a Candle,59,20,50,19,13
+134,Mine 3 types of Ice,0,0,0,0,0
+135,Mine a Spawner,40,14,35,21,9
+136,Mine Crafter,42,24,58,18,31
+137,Mine Diamond Ore,59,16,42,10,21
+138,Mine Emerald Ore,11,7,14,9,4
+139,Mine Turtle Egg,26,11,23,12,7
+140,Name a Ghast 'Dinnerbone',29,23,31,6,3
+141,Name a Sheep 'jeb_',18,11,21,6,1
+142,Obtain Bullseye Advancement,40,9,31,9,7
+143,Obtain Mob Kabob Advancement,53,29,53,17,36
+144,Obtain Oh Shiny Advancement,37,22,53,32,15
+145,Obtain Sniper Duel Advancement,49,27,57,34,10
+146,Obtain Stay Hydrated! Advancement,14,10,21,12,2
+147,Obtain This boat has legs Advancement,27,10,23,4,4
+148,Obtain Wax Off Advancement,33,8,25,7,9
+149,Obtain Wax On Advancement,36,7,27,9,4
+150,Obtain 2 Unique Armor Trims,0,0,0,0,0
+151,Obtain 3 types of Horse Armor,29,23,34,16,3
+152,Obtain 3 Unique Banner Patterns,44,18,38,14,10
+153,Obtain 4 Unique Saplings,48,7,24,6,14
+154,Obtain 4 Unique Seeds,10,3,12,3,4
+155,Obtain 6 Unique Buckets,33,17,43,24,6
+156,Obtain 6 Unique Flowers,41,18,45,27,17
+157,Obtain 7 Unique Workstations,33,17,44,28,14
+158,Obtain 10 Advancements,32,29,49,33,14
+159,Obtain 20 Advancements,53,39,59,39,8
+160,Obtain 30 Advancements,7,6,8,6,0
+161,Obtain 32 Arrows,19,11,21,10,10
+162,Obtain 64 Black Concrete,3,1,1,0,0
+163,Obtain 64 Blue Concrete,4,1,3,0,3
+164,Obtain 64 Brown Concrete,1,0,2,1,0
+165,Obtain 64 Cyan Concrete,0,0,1,1,0
+166,Obtain 64 Gray Concrete,5,0,2,1,1
+167,Obtain 64 Green Concrete,0,0,1,0,0
+168,Obtain 64 Light Blue Concrete,7,2,4,3,1
+169,Obtain 64 Light Gray Concrete,1,1,4,1,2
+170,Obtain 64 Lime Concrete,1,1,1,0,0
+171,Obtain 64 Magenta Concrete,6,2,3,0,1
+172,Obtain 64 Orange Concrete,7,2,2,0,1
+173,Obtain 64 Pink Concrete,3,0,4,0,2
+174,Obtain 64 Purple Concrete,3,0,0,0,0
+175,Obtain 64 Red Concrete,1,0,0,0,0
+176,Obtain 64 White Concrete,5,1,5,0,3
+177,Obtain 64 Yellow Concrete,3,1,6,2,2
+178,Obtain 64 Black Wool,4,0,1,0,0
+179,Obtain 64 Blue Wool,2,1,2,0,0
+180,Obtain 64 Brown Wool,0,0,0,0,0
+181,Obtain 64 Cyan Wool,0,0,0,0,0
+182,Obtain 64 Gray Wool,1,0,3,0,1
+183,Obtain 64 Green Wool,0,0,0,0,0
+184,Obtain 64 Light Blue Wool,0,0,0,0,0
+185,Obtain 64 Light Gray Wool,2,2,3,1,0
+186,Obtain 64 Lime Wool,2,1,1,0,0
+187,Obtain 64 Magenta Wool,6,2,3,0,1
+188,Obtain 64 Orange Wool,4,3,5,2,2
+189,Obtain 64 Pink Wool,4,2,3,0,0
+190,Obtain 64 Purple Wool,4,3,4,1,0
+191,Obtain 64 Red Wool,6,2,3,1,0
+192,Obtain 64 White Wool,3,1,4,1,1
+193,Obtain 64 Yellow Wool,2,1,2,1,0
+194,Obtain 64 Coarse Dirt,35,12,49,16,29
+195,Obtain a stack of any Item,31,23,48,28,20
+196,Obtain Activator Rail,32,16,41,17,18
+197,Obtain all Copper Tools,28,7,30,14,13
+198,Obtain all Diamond Tools,34,11,29,3,8
+199,Obtain all Golden Tools,40,26,47,32,13
+200,Obtain all Iron Tools,39,25,56,36,17
+201,Obtain all Stone Tools,46,34,54,42,12
+202,Obtain all Wooden Tools,40,25,42,30,12
+203,Obtain any Spyglass Advancement,35,6,23,6,2
+204,Obtain Bell,6,5,11,6,5
+205,Obtain Black Glazed Terracotta,3,2,6,4,2
+206,Obtain Blue Glazed Terracotta,7,1,4,1,3
+207,Obtain Brown Glazed Terracotta,0,0,0,0,0
+208,Obtain Cyan Glazed Terracotta,1,1,2,1,1
+209,Obtain Gray Glazed Terracotta,2,1,1,1,0
+210,Obtain Green Glazed Terracotta,1,1,1,0,1
+211,Obtain Light Blue Glazed Terracotta,5,2,7,4,3
+212,Obtain Light Gray Glazed Terracotta,4,2,4,1,2
+213,Obtain Lime Glazed Terracotta,2,2,3,2,1
+214,Obtain Magenta Glazed Terracotta,8,4,5,3,1
+215,Obtain Orange Glazed Terracotta,1,0,1,1,0
+216,Obtain Pink Glazed Terracotta,6,0,2,1,0
+217,Obtain Purple Glazed Terracotta,2,0,1,0,1
+218,Obtain Red Glazed Terracotta,5,3,5,3,2
+219,Obtain White Glazed Terracotta,3,1,1,1,0
+220,Obtain Yellow Glazed Terracotta,4,0,4,2,2
+221,Obtain Block of Resin,2,1,2,1,0
+222,Obtain Bone Block,29,18,43,21,20
+223,Obtain Bookshelf,49,37,69,37,31
+224,Obtain Bottle o' Enchanting,44,19,46,13,12
+225,Obtain Brick Wall,49,10,33,14,18
+226,Obtain Bucket of Tropical Fish,19,11,31,15,11
+227,Obtain Clock,37,29,58,37,14
+228,Obtain Cobweb,52,18,39,13,10
+229,Obtain Copper Chest,18,4,19,6,12
+230,Obtain Daylight Detector,47,27,48,30,12
+231,Obtain Dead Bush,16,10,16,8,7
+232,Obtain Detector Rail,42,18,45,13,26
+233,Obtain Dispenser,45,23,47,23,16
+234,Obtain Dried Kelp Block,29,10,26,11,13
+235,Obtain Emerald Block,14,10,15,9,4
+236,Obtain Ender Chest,46,21,30,23,0
+237,Obtain every type of Furnace,48,24,53,29,20
+238,Obtain every type of Minecart,13,8,17,5,2
+239,Obtain every type of Mushroom,36,15,31,14,7
+240,Obtain every type of Pumpkin,40,23,44,28,13
+241,Obtain every type of Raw Ore Block,41,3,22,8,10
+242,Obtain every type of Torch,52,10,28,10,7
+243,Obtain Flowering Azalea,51,18,48,17,17
+244,Obtain Gilded Blackstone,44,26,55,38,10
+245,Obtain Heart Of The Sea,46,19,50,24,17
+246,Obtain Lodestone,39,19,48,29,17
+247,Obtain Mossy Stone Brick Wall,52,22,54,27,22
+248,Obtain Mud Brick Wall,32,7,29,11,18
+249,Obtain Netherite Scrap,16,9,17,8,2
+250,Obtain Piston,42,25,37,25,7
+251,Obtain Pottery Sherd,46,12,36,16,8
+252,Obtain Powder Snow Bucket,4,0,6,2,2
+253,Obtain Powered Rail,42,21,43,25,10
+254,Obtain Red Nether Brick Stairs,37,22,39,21,5
+255,Obtain Redstone Comparator,37,20,45,21,14
+256,Obtain Redstone Lamp,39,18,35,15,10
+257,Obtain Redstone Repeater,36,18,35,16,14
+258,Obtain Resin Brick Wall,2,1,2,0,1
+259,Obtain Scaffolding,18,14,20,16,3
+260,Obtain Smooth Basalt,31,16,33,18,12
+261,Obtain Smooth Quartz Stairs,14,13,21,16,2
+262,Obtain Soul Lantern,42,23,45,26,14
+263,Obtain Sponge,1,1,1,1,0
+264,Obtain Suspicious Sand/Gravel,12,3,9,1,1
+265,Obtain TNT,35,22,38,23,12
+266,Place a Hanging Sign,2,2,6,3,3
+267,Place Painting,22,14,24,16,8
+268,Play a Music Disc in Jukebox,51,24,55,17,17
+269,Pot any plant in Flower Pot,47,28,57,31,26
+270,Put Item Frame in an Item Frame,45,30,67,43,22
+271,Put Wolf Armor on Wolf,20,6,11,0,1
+272,Reach Bedrock,43,9,41,12,21
+273,Reach height limit,36,9,21,11,2
+274,Reach XP level 10,48,29,56,39,14
+275,Reach XP level 20,38,21,46,24,9
+276,Remove Effect using Milk Bucket,48,27,61,32,28
+277,Ride a Minecart,37,19,45,16,23
+278,Shoot Firework from Crossbow,41,13,41,16,16
+279,Sprint 1km,36,2,30,14,15
+280,Spy on 10 Unique Mobs,30,4,17,5,0
+281,Spy on 20 Unique Mobs,39,12,19,4,3
+282,Spy on Iron Golem,40,8,18,5,2
+283,Spy on Piglin Brute,38,14,20,5,0
+284,Take 200 damage,21,13,36,25,11
+285,Tame a Cat,11,0,2,1,1
+286,Tame a Horse,49,20,49,19,27
+287,Tame a Nautilus,19,2,7,4,2
+288,Tame a Parrot,15,0,8,0,6
+289,Tame a Wolf,41,2,17,2,6
+290,Toot a Goat Horn,6,2,5,1,1
+291,Trade with a Villager,38,18,37,20,14
+292,Tune a Note Block,44,29,52,36,14
+293,Use Anvil,30,20,31,8,10
+294,Use Brewing Stand,33,19,39,24,7
+295,Use Brush on Suspicious Sand/Gravel,20,6,20,4,9
+296,Use Carrot on a Stick to boost a Pig,44,15,44,14,19
+297,Use Cauldron to wash something,45,26,51,37,11
+298,Use Enchanting Table,41,19,41,10,9
+299,Use Glow Ink on Crimson or Warped Sign,44,16,33,7,12
+300,Use Grindstone,45,24,58,25,32
+301,Use Loom to design a Banner,46,24,53,33,15
+302,Use Smithing Table,42,19,41,20,13
+303,Use Stonecutter,54,34,69,35,34
+304,Visit All Nether Biomes,46,28,40,15,4
+305,Wear a Carved Pumpkin for 5 minutes,38,23,45,26,13
+306,Wear a Chain Armor Piece,8,5,10,0,0
+307,Wear Black Leather Boots,1,1,3,3,0
+308,Wear Black Leather Chestplate,0,0,0,0,0
+309,Wear Black Leather Helmet,1,0,2,1,1
+310,Wear Black Leather Leggings,1,0,2,1,1
+311,Wear Blue Leather Boots,1,1,2,0,0
+312,Wear Blue Leather Chestplate,0,0,1,1,0
+313,Wear Blue Leather Helmet,4,3,4,3,1
+314,Wear Blue Leather Leggings,0,0,0,0,0
+315,Wear Brown Leather Boots,0,0,0,0,0
+316,Wear Brown Leather Chestplate,0,0,0,0,0
+317,Wear Brown Leather Helmet,0,0,0,0,0
+318,Wear Brown Leather Leggings,0,0,0,0,0
+319,Wear Cyan Leather Boots,0,0,0,0,0
+320,Wear Cyan Leather Chestplate,0,0,0,0,0
+321,Wear Cyan Leather Helmet,0,0,0,0,0
+322,Wear Cyan Leather Leggings,0,0,0,0,0
+323,Wear Gray Leather Boots,0,0,0,0,0
+324,Wear Gray Leather Chestplate,2,1,1,1,0
+325,Wear Gray Leather Helmet,1,1,2,1,1
+326,Wear Gray Leather Leggings,0,0,1,0,1
+327,Wear Green Leather Boots,1,1,1,1,0
+328,Wear Green Leather Chestplate,0,0,0,0,0
+329,Wear Green Leather Helmet,0,0,0,0,0
+330,Wear Green Leather Leggings,0,0,0,0,0
+331,Wear Light Blue Leather Boots,0,0,0,0,0
+332,Wear Light Blue Leather Chestplate,1,0,1,0,1
+333,Wear Light Blue Leather Helmet,1,0,0,0,0
+334,Wear Light Blue Leather Leggings,2,1,1,1,0
+335,Wear Light Gray Leather Boots,2,1,1,1,0
+336,Wear Light Gray Leather Chestplate,3,3,4,2,2
+337,Wear Light Gray Leather Helmet,1,1,2,1,1
+338,Wear Light Gray Leather Leggings,1,1,1,1,0
+339,Wear Lime Leather Boots,0,0,0,0,0
+340,Wear Lime Leather Chestplate,1,1,1,1,0
+341,Wear Lime Leather Helmet,0,0,0,0,0
+342,Wear Lime Leather Leggings,0,0,0,0,0
+343,Wear Magenta Leather Boots,1,1,2,2,0
+344,Wear Magenta Leather Chestplate,0,0,1,0,1
+345,Wear Magenta Leather Helmet,1,0,0,0,0
+346,Wear Magenta Leather Leggings,2,1,1,0,1
+347,Wear Orange Leather Boots,1,1,3,1,2
+348,Wear Orange Leather Chestplate,0,0,1,0,1
+349,Wear Orange Leather Helmet,0,0,1,1,0
+350,Wear Orange Leather Leggings,2,2,2,2,0
+351,Wear Pink Leather Boots,0,0,0,0,0
+352,Wear Pink Leather Chestplate,1,1,1,0,1
+353,Wear Pink Leather Helmet,0,0,0,0,0
+354,Wear Pink Leather Leggings,2,2,2,2,0
+355,Wear Purple Leather Boots,0,0,1,1,0
+356,Wear Purple Leather Chestplate,3,2,2,0,0
+357,Wear Purple Leather Helmet,1,1,1,0,1
+358,Wear Purple Leather Leggings,0,0,0,0,0
+359,Wear Red Leather Boots,0,0,3,0,3
+360,Wear Red Leather Chestplate,1,1,2,1,1
+361,Wear Red Leather Helmet,0,0,1,0,1
+362,Wear Red Leather Leggings,1,0,0,0,0
+363,Wear White Leather Boots,1,1,2,0,1
+364,Wear White Leather Chestplate,1,0,1,0,1
+365,Wear White Leather Helmet,0,0,0,0,0
+366,Wear White Leather Leggings,1,0,1,0,0
+367,Wear Yellow Leather Boots,0,0,0,0,0
+368,Wear Yellow Leather Chestplate,0,0,0,0,0
+369,Wear Yellow Leather Helmet,0,0,2,0,2
+370,Wear Yellow Leather Leggings,1,1,2,1,1
+371,Wear Full Armor with different materials,0,0,0,0,0
+372,Wear Full Copper Armor,26,6,22,5,13
+373,Wear Full Diamond Armor,19,7,20,1,0
+374,Wear Full Enchanted Armor,39,23,41,16,8
+375,Wear Full Golden Armor,25,16,33,21,6
+376,Wear Full Iron Armor,23,11,24,13,6
+377,"Wear Full Leather Armor, in different colors",44,29,42,20,11
+378,Write a Book,48,24,55,36,18

@@ -1,10 +1,8 @@
-import copy
 import csv
-from misc import *
+import copy
+from cilji import *
 from match_id import *
-from analiza import *
-
-
+from ekstrakcija import *
 
 
 
@@ -25,7 +23,7 @@ def objective_stats(name):
 
 
 def create_csv(name):
-    """ustvari csv s podatki vseh iger"""
+    """Ustvari csv s podatki vseh iger"""
     data = objective_stats(name)
     with open(f"{name}.csv", "w") as f:
         writer = csv.writer(f)
@@ -34,6 +32,4 @@ def create_csv(name):
         for goal in data:
             writer.writerow([i, goal, data[goal]["choice"], data[goal]["drafted"], data[goal]["appeared"], data[goal]["completed"], data[goal]["lost"]])
             i+=1
-    return None
  
-print(create_csv("Feinberg"))

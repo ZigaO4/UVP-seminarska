@@ -1,9 +1,9 @@
-from selenium.webdriver.common.by import By
 import re
 import copy
-from selenium import webdriver
 import time
-from misc import remove_quot, template, objectives
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from cilji import remove_quot, template, objectives
 
 
 
@@ -15,7 +15,7 @@ def match_stats(name, match_id):
     driver.get(url)
     time.sleep(1)
     
-    #HTML Od Igre
+    #Shranjevanje HTML od Igre
     content = driver.page_source
     with open(f"{name}-{match_id}.html", "w", encoding='UTF-8') as f:
         f.write(content)
@@ -26,14 +26,14 @@ def match_stats(name, match_id):
     draft_button.click()
     time.sleep(1)
 
-    #HTML Od Drafta
+    #Shranjevanje HTML od Drafta
     content = driver.page_source
+    driver.quit()
     with open(f"{name}-{match_id}-draft.html", "w", encoding='UTF-8') as f:
         f.write(content)
     remove_quot(f"{name}-{match_id}-draft.html")
     
-    driver.quit()
-
+    
 
     data = copy.deepcopy(template)
 
@@ -42,12 +42,12 @@ def match_stats(name, match_id):
         html_profile = file.read()
         completed_objectives = re.findall(fr'title="([^"]+) - {name}', html_profile)
 
-        #If completed
+        #Če je igralec zmagal cilj
         for item in completed_objectives:
             if item in objectives:
                 data[item]["completed"] += 1
 
-        #If lost
+        #Če je igralec izgubil cilj
         lost_objectives = re.findall(fr'title="([^"]+) - (?!{name})', html_profile)
         for item in objectives:
             if item in lost_objectives:
@@ -57,21 +57,21 @@ def match_stats(name, match_id):
     with open(f"{name}-{match_id}-draft.html", "r", encoding='UTF-8') as file:
         html_profile = file.read()
 
-        #If appeared on board
+        #Če se je cilj pojavil v igri
         appeared_objectives = re.findall(fr'role="gridcell" title="([^"]+)', html_profile)
         for item in appeared_objectives:
             if item in objectives:
                 data[item]["appeared"] += 1
 
 
-        #If appeared on draft
-        appeared_draft = re.findall(rf'100">Feinberg<span.*?picks:.*?text-neutral-\d*"[^>]*>([^<]*)<.*?text-neutral-\d*"[^>]*>([^<]*)<', html_profile)
+        #Če se je cilj pojavil v draftu
+        appeared_draft = re.findall(rf'100">{name}<span.*?picks:.*?text-neutral-\d*"[^>]*>([^<]*)<.*?text-neutral-\d*"[^>]*>([^<]*)<', html_profile)
         for match in appeared_draft:
             choice_insert_goals(match[0], data)
             choice_insert_goals(match[1], data)
 
 
-        #If drafted
+        #Če je igralec izbral cilj
         drafted = re.findall(rf'(100">{name}<span class="ml-1.*?picks.*?break-words hyphens-auto text-neutral-100">(.+?)<\/span>)', html_profile)
     
         for match in drafted:
@@ -79,6 +79,7 @@ def match_stats(name, match_id):
                 objective=match[1].replace('"', '')
                 if objective in objectives:
                     data[objective]["drafted"]+=1
+
 
 
     return data
@@ -93,7 +94,3 @@ def choice_insert_goals(goal, data):
         data[goal]["choice"]+=1
     else:
         print(goal + " does not exist")
-
-
-
-

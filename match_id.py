@@ -2,7 +2,7 @@ import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-depth = 5
+depth = 27
 
 def profile(name):
     """Shrani HTML profila uporabnika"""
@@ -22,11 +22,11 @@ def profile(name):
     driver.quit()
     with open(f"{name}.html", "w", encoding='UTF-8') as f:
         f.write(profile_content)
-        
-    return None
+    
 
 
 def match_ids(name):
+    """Iz HTML profila generira seznam ID-jev vseh njegovih iger"""
     profile(name)
     time.sleep(2)
     with open(f"{name}.html", "r", encoding='UTF-8') as f:

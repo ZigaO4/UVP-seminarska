@@ -1,6 +1,7 @@
 import re
-from selenium import webdriver
 import time
+from selenium import webdriver
+
 
 
 def remove_quot(file):
@@ -11,7 +12,8 @@ def remove_quot(file):
 
     with open(f"{file}", "w", encoding="UTF-8") as f:
         f.write(new_html)
-    return None
+
+
 
 def createObjectivesHTML():
     """Shrani HTML File spletne strani z objectivi"""
@@ -26,10 +28,11 @@ def createObjectivesHTML():
         f.write(objectives_content)
     
     remove_quot(f"objectives.html")
-    return None
 
 
-#createObjectivesHTML()
+createObjectivesHTML()
+
+
 
 #Ustvari seznam objectivov iz HTML kode
 objectives = []
@@ -39,12 +42,10 @@ objectives = re.findall(r'title="([^"]+)"', html_objectives)
 
 
 
-
 #Predloga za obliko shranjevanja podatkov
 entry= {
         "choice": 0,
         "drafted": 0,
-
         "appeared": 0,
         "completed": 0,
         "lost": 0,

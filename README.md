@@ -1,13 +1,13 @@
 # Seminarska naloga: zajemanje podatkov iz spletne strani igre Draftout
 
-[Draftout](https://draftoutmc.com/) je igra, v kateri se dva igralca pomerita v opravljanju 25 ciljev, vsakega od katerih lahko opravi največ en izmed njih. Sestoji iz dveh delov: Drafta, v katerem igralca izmenjaje izbirata te cilje, in dejanske igre, v kateri cilje opravljata.
+[Draftout](https://draftoutmc.com/) je igra, v kateri se dva igralca pomerita v opravljanju 25 ciljev, vsakega od katerih lahko opravi največ en izmed njih. Sestoji iz dveh delov: drafta, v katerem igralca izmenjaje izbirata te cilje, in dejanske igre, v kateri cilje opravljata.
 
 Projekt s spletne strani Draftouta, na kateri je shranjena zgodovina vseh iger, zajema podatke o igrah določenega igralca in jih nato analizira v datoteki `analiza podatkov.ipynb`.
 
 ## Navodila za zagon
 Za uporabo sta potrebni knjižnici **selenium** in **pandas**.
 
-Uporabnik v datoteki `main.py` nastavi spremenljivko `name` na ime igralca, ki ga želi analizirati, ter jo nato požene. Nato je ustvarjena datoteka `{name}.csv`, v kateri so združeni podatki vseh iger tega igralca. Za analizo teh podatkov uporabnik požene datoteko `analiza podatkov.ipynb`.
+Uporabnik v datoteki `main.py` nastavi spremenljivko `name` na ime igralca, ki ga želi analizirati, ter jo požene. Nato je ustvarjena datoteka `{name}.csv`, v kateri so združeni podatki vseh iger tega igralca. Za analizo teh podatkov uporabnik požene datoteko `analiza podatkov.ipynb`.
 
 
 ## Delovanje in struktura programa

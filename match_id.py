@@ -2,7 +2,8 @@ import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-depth = 0
+
+
 
 def profile(name):
     """Shrani HTML profila uporabnika"""
@@ -13,7 +14,7 @@ def profile(name):
     time.sleep(2)
 
 
-    for _ in range(0, depth):
+    for _ in range(0, 25):
         scroll = driver.find_element(By.XPATH, "(//div[@data-scroll-key])[last()]")
         driver.execute_script("arguments[0].scrollIntoView();", scroll)
         time.sleep(1)
@@ -32,5 +33,5 @@ def match_ids(name):
         html_profile = f.read()
 
     ids = re.findall(r'data-scroll-key="(\d+)"', html_profile)
-    print(f"{len(ids)} matches")
+    print(f"{len(ids)} matches found")
     return ids

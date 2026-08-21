@@ -1,6 +1,5 @@
 from general import *
 
-
-name = "TNT444"
+name = "Feinberg"
 
 create_csv(name)

@@ -11,12 +11,11 @@ def objective_stats(name):
     data = copy.deepcopy(template)
     metric_list = ["choice", "drafted", "appeared", "completed", "lost"]
 
-    #for match_id in match_ids(name):
-    match_id=match_ids(name)[0]
-    match_data = match_stats(name, match_id)
-    for item in match_data:
-        for metric in metric_list:
-            data[item][metric] += match_data[item][metric]
+    for match_id in match_ids(name):
+        match_data = match_stats(name, match_id)
+        for item in match_data:
+            for metric in metric_list:
+                data[item][metric] += match_data[item][metric]
     return data
 
 

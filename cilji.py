@@ -3,6 +3,7 @@ import time
 from selenium import webdriver
 
 
+
 def create_objectives_html():
     """Shrani HTML File spletne strani z objectivi"""
     chrome_options = webdriver.ChromeOptions()

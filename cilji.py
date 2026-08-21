@@ -3,47 +3,34 @@ import time
 from selenium import webdriver
 
 
-
-def remove_quot(file):
-    """Iz HTML datoteke počisti &quot;"""
-    with open(f"{file}", "r", encoding="UTF-8") as f:
-        html_code = f.read()
-    new_html = html_code.replace("&quot;", "")
-
-    with open(f"{file}", "w", encoding="UTF-8") as f:
-        f.write(new_html)
-
-
-
-def createObjectivesHTML():
+def create_objectives_html():
     """Shrani HTML File spletne strani z objectivi"""
     chrome_options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(options=chrome_options)
-    url = f"https://draftoutmc.com/wiki"
+    url = "https://draftoutmc.com/wiki"
     driver.get(url)
-    time.sleep(3)
+    time.sleep(4)
     objectives_content = driver.page_source
     driver.quit()
-    with open(f"objectives.html", "w", encoding='UTF-8') as f:
+    with open("objectives.html", "w", encoding='UTF-8') as f:
+        objectives_content = objectives_content.replace("&quot;", "")
         f.write(objectives_content)
     
-    remove_quot(f"objectives.html")
 
-
-createObjectivesHTML()
+create_objectives_html()
 
 
 
 #Ustvari seznam objectivov iz HTML kode
 objectives = []
-with open(f"objectives.html", "r", encoding='UTF-8') as file:
+with open("objectives.html", "r", encoding='UTF-8') as file:
     html_objectives = file.read()
 objectives = re.findall(r'title="([^"]+)"', html_objectives)
 
 
 
 #Predloga za obliko shranjevanja podatkov
-entry= {
+entry = {
         "choice": 0,
         "drafted": 0,
         "appeared": 0,
@@ -51,5 +38,5 @@ entry= {
         "lost": 0,
     }
 template = {}
-for i in range (0, len(objectives)):
-    template[objectives[i]]=entry.copy()
+for i in range(0, len(objectives)):
+    template[objectives[i]] = entry.copy()
